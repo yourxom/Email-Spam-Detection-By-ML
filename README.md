@@ -1,7 +1,6 @@
 📧 Spam Detection Using Machine Learning
 
 A machine learning project that classifies messages as spam or ham (not spam) using natural language processing and classification algorithms. This project 
-
 demonstrates text preprocessing, feature extraction, model training, and evaluation.
 
 🚀 Features
@@ -31,6 +30,7 @@ Notebook: Jupyter
 This project uses the SMS Spam Collection Dataset, which contains 5,000+ labeled SMS messages.
 
 📬 Contact
+
 Email: otripathi18000@gmail.com
 
 GitHub: @yourxom
