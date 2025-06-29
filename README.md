@@ -21,7 +21,7 @@ This project uses Natural Language Processing (NLP) and Machine Learning (ML) to
 ├── models/
 │   ├── spam_classifier_model.pkl
 │   └── tfidf_vectorizer.pkl
-├── spam.csv                  # Dataset
+├── spam email dataset.csv                  # Dataset
 ├── app_streamlit_final_interpreted.py  # Streamlit Web App
 ├── Email Spam Detection.ipynb          # Jupyter Notebook
 ├── README.md                # Project Overview
