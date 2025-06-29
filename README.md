@@ -49,7 +49,7 @@ Notebook: Jupyter
 
 ## 🙌 Credits
 
-* Project by Om Tripathi & \[Second Member Name]
+* Project by Om Tripathi
 * Built using Python, scikit-learn, and Streamlit
 
 ---
