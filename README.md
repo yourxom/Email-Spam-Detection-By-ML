@@ -1,21 +1,41 @@
-📧 Spam Detection Using Machine Learning
+# 📧 Spam Email Detection Using Machine Learning
 
-A machine learning project that classifies messages as spam or ham (not spam) using natural language processing and classification algorithms. This project 
-demonstrates text preprocessing, feature extraction, model training, and evaluation.
+This project uses Natural Language Processing (NLP) and Machine Learning (ML) to build a system that classifies email messages as **Spam** or **Ham (Not Spam)**. It also features a user-friendly **Streamlit web app** for real-time message testing and model retraining.
 
-🚀 Features
-Text preprocessing (cleaning, tokenization, stemming/lemmatization)
+---
 
-Feature extraction using TF-IDF or CountVectorizer
+## 🚀 Features
 
-Multiple classification models (Naive Bayes, SVM, Logistic Regression, etc.)
+* 🧹 Data cleaning and preprocessing
+* 🧠 TF-IDF vectorization of email text
+* 🤖 Trained with Multinomial Naive Bayes classifier
+* 📊 Accuracy, Precision, Recall, and Confusion Matrix
+* 🌐 Interactive Streamlit web app
 
-Evaluation using accuracy, precision, recall, F1 score
+---
 
-Confusion matrix visualization
+## 📁 Project Structure
 
-Visualizations: Confusion matrix and bar charts for metric comparison
+```
+📦 spam-email-detection
+├── models/
+│   ├── spam_classifier_model.pkl
+│   └── tfidf_vectorizer.pkl
+├── spam.csv                  # Dataset
+├── app_streamlit_final_interpreted.py  # Streamlit Web App
+├── Email Spam Detection.ipynb          # Jupyter Notebook
+├── README.md                # Project Overview
+```
 
+---
+
+## 🧪 Usage
+
+* Upload `spam.csv` or a custom dataset with `label` and `text` columns
+* View accuracy and confusion matrix on sidebar
+* Test messages in real time using the input box
+
+---
 
 🛠️ Tech Stack
 
@@ -25,12 +45,21 @@ Libraries: Scikit-learn, Pandas, NumPy, NLTK, Matplotlib, Seaborn
 
 Notebook: Jupyter
 
-📁 Dataset
+---
 
-This project uses the SMS Spam Collection Dataset, which contains 5,000+ labeled SMS messages.
+## 🙌 Credits
 
+* Project by Om Tripathi & \[Second Member Name]
+* Built using Python, scikit-learn, and Streamlit
+
+---
+Web App:
+https://spam-email-detection-webapp-f9jtfvjwnctbmjmvhdg457.streamlit.app
+
+---
 📬 Contact
 
 Email: otripathi18000@gmail.com
 
 GitHub: @yourxom
+
