@@ -61,5 +61,6 @@ https://spam-email-detection-webapp-f9jtfvjwnctbmjmvhdg457.streamlit.app
 
 Email: otripathi18000@gmail.com
 
-GitHub: @yourxom
+GitHub: @yourxom  (https://github.com/yourxom)
+
 
